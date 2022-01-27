@@ -1,0 +1,201 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+      background-color: #494848;
+      font-family: Share Tech Mono;
+      }
+  
+      div.scroll {
+        margin:4px, 4px;
+        padding:4px;
+        background-color: green;
+        width: 500px;
+        height: 110px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align:justify;
+    }
+  
+  
+    /* Nav bar */
+  
+    #logo img{
+      position: absolute;
+      width: 52px;
+      height: 37px;
+      left: -100px;
+      top: -345px;
+    }
+      a {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #FF0000;
+    }
+    .header {
+      padding: 0px 0px 0px 0px;
+      height: 100px;
+      position: relative;
+      top: 0px;
+      width: 100%;
+      z-index: 50;
+      font-size: 18px;
+      }
+    
+    .navigation-bar {
+      width: 100%;
+      float: right;
+      padding: 10px;
+      text-align: right;
+      background-color: rgba(0, 0, 0, 23%);
+      }
+      .button {
+        position: relative;
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #494848;
+        border: 1px solid;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        width: 150px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        font-family: Share Tech;
+        
+        }
+        /* Nav Button */
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      .button:hover span {
+        padding-right: 25px;
+        color: #FF0000;
+      }
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+        color: #FF0000;
+      }
+      .nav {
+        position: absolute;
+        width: 166px;
+        height: 20px;
+        left: 70px;
+        top: 15px;
+        font-size: 18px;
+        color: white;
+      }
+      /* Introduction */
+      h1, h2, h3, h4, h5 {
+        font-family: Share Tech Mono;
+        color: #FFFFFF
+      }
+      p {
+        font-family: Share Tech Mono;
+        color: #FFFFFF
+      }
+      h1 {
+        position: absolute;
+        width: 182px;
+        height: 27px;
+        left: 118px;
+        top: 201px;
+        font-family: Share Tech Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+      
+      h2 {
+      position: absolute;
+      width: 312px;
+      height: 54px;
+      left: 118px;
+      top: 210px;
+      font-family: Share Tech Mono;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 54px;
+      display: flex;
+      align-items: center;
+      }
+      h3 {
+        position: absolute;
+        width: 364px;
+        height: 39px;
+        left: 118px;
+        top: 265px;
+        font-family: Share Tech Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 54px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+  
+    
+      p {
+        position: absolute;
+        width: 519px;
+        height: 81px;
+        left: 118px;
+        top: 345px;
+        font-family: Share Tech Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+      }
+      h1 {
+        color: black;
+      }
+      p {
+        color: black;
+      }
+      h2:hover {
+       color: #FF0000;
+     }
+     h3:hover {
+      color: #FF0000;
+    }
+  
+  
+  /* footer */
+   
+  .content {
+    min-height: calc(100vh - 70px);
+    text-align: right;
+  }
+  .footer {
+    height: 50px;
+    text-align: right;
+    float: right;
+    background-color: rgba(0, 0, 0, 23%);
+  }
